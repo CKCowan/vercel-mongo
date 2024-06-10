@@ -16,6 +16,6 @@ export default async function handler(request, response) {
     // })
     .limit(10).toArray();
 
-    response.status(200).json(results);
+    await response.status(200).json(results);
 
 }
