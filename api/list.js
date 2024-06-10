@@ -1,4 +1,7 @@
-import { connectToDatabase } from "../lib/mongodb";
+// import { VercelRequest, VercelResponse } from '@vercel/node'
+
+
+import { connectToDatabase } from '../lib/mongodb.mjs';
 
 export default async function handler(request, response) {
     
