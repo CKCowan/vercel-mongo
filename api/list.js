@@ -14,7 +14,7 @@ export default async function handler(request, response) {
     //     "borough": 0,
     //     "restaurant_id": 0
     // })
-    // .limit(10).toArray();
+    .limit(10).toArray();
 
     response.status(200).json(results);
 
